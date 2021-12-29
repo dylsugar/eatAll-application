@@ -1,0 +1,170 @@
+.App {
+  text-align:left;
+  background: salmon;
+}
+
+
+.header{
+  background-color:salmon;
+  color: white;
+  font-weight: bold;
+  font-family: "Monaco",monospace;
+  font-size: 70px;
+  padding: 0px 40px;
+  display: block;
+}
+
+
+
+.topnav{
+  width: 60px;
+  background-color:salmon;
+  display:block;
+  padding: 20px 30px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  
+
+}
+
+
+.topnav div{
+  height: 5px;
+  background: #fff;
+  margin: 7px 0px 7px 0px;
+  transition: all 0.5s;
+ -webkit-transition: all 0.5s;
+}
+
+.Features { width: 35px;}
+.About { width: 50px;}
+.topnav:hover div { width: 60px;}
+
+.mapper{
+  border-style: solid;
+  border-color: salmon;
+  border-width: 10px;
+}
+
+.selector{
+  border-style:outset;
+  border-color:ivory;
+  border-width: 20px;
+  background:salmon;
+  padding: 20px;
+  min-height: 100%;
+}
+
+.switch {
+  position:sticky;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  vertical-align: middle;
+
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.prompt{
+  width: 50%;
+  display: inline;
+}
+
+.sbar{
+  width:50%;
+  font-size: 17px;
+  display: inline;
+  border-radius: 15px;
+  border-color:salmon;
+}
+
+.atnLabel{
+  margin-right: 10px;
+  font-weight: bold;
+  font-family: "Monaco",monospace;
+}
+
+.peanutLabel{
+  margin-right: 78px;
+  font-weight: bold;
+  font-family: "Monaco",monospace;
+}
+
+.cashewLabel{
+  margin-right: 78px;
+  font-weight: bold;
+  font-family: "Monaco",monospace;
+}
+
+.dairyLabel{
+  margin-right: 98px;
+  font-weight: bold;
+  font-family: "Monaco",monospace;
+}
+
+.eggLabel{
+  margin-right: 116px;
+  font-weight: bold;
+  font-family: "Monaco",monospace;
+}
+
+.glutenLabel{
+  margin-right: 88px;
+  font-weight: bold;
+  font-family: "Monaco",monospace;
+}
+
