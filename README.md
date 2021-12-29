@@ -1,4 +1,4 @@
-# eatAll
+# eatAll: Restaurant Finding Service Application for those with dietary restrictions
 
 # Purpose:
 
