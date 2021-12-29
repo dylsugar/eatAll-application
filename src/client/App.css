@@ -53,6 +53,9 @@
   background:salmon;
   padding: 20px;
   min-height: 100%;
+  display: inline-block;
+  overflow: scroll;
+  width: 50;
 }
 
 .switch {
@@ -132,6 +135,8 @@ input:checked + .slider:before {
   border-color:salmon;
 }
 
+
+
 .atnLabel{
   margin-right: 10px;
   font-weight: bold;
@@ -166,5 +171,9 @@ input:checked + .slider:before {
   margin-right: 88px;
   font-weight: bold;
   font-family: "Monaco",monospace;
+}
+
+.bottom{
+  display: inline-block;
 }
 
