@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './client/App';
 import reportWebVitals from './reportWebVitals';
-import "leaflet/dist/leaflet.css"
 
 ReactDOM.render(
   <React.StrictMode>
