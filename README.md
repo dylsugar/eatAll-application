@@ -1,4 +1,4 @@
-# eatAll: Restaurant Finding Service Application for those with dietary restrictions
+# [eatAll](https://eatall-app.herokuapp.com/).: Restaurant Finding Service Application for those with dietary restrictions
 
 # Purpose:
 
