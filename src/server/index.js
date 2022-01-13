@@ -24,9 +24,6 @@ app.get("/api", (req, res) => {
 
 // All other GET requests not handled before will return our React app
 app.get('*', (req, res) => {
-<<<<<<< HEAD
   res.sendFile(path.resolve(__dirname, '../build', 'index.html'));
-=======
-  res.sendFile(path.resolve(__dirname, './build', 'index.html'));
->>>>>>> Deploy app to Heroku
+
 });

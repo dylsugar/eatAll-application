@@ -48,14 +48,18 @@
 
 .selector{
   border-style:outset;
-  border-color:ivory;
+  border-color:white;
   border-width: 20px;
   background:salmon;
   padding: 20px;
-  min-height: 100%;
-  display: inline-block;
   overflow: scroll;
-  width: 50;
+  flex: 50%;
+  color: #fff;
+}
+
+.bottom{
+  height:500px;
+  display: flex;
 }
 
 .switch {
@@ -123,16 +127,18 @@ input:checked + .slider:before {
 }
 
 .prompt{
+  display: inline-block;
   width: 50%;
-  display: inline;
 }
 
 .sbar{
   width:50%;
   font-size: 17px;
-  display: inline;
+  display: inline-block;
   border-radius: 15px;
   border-color:salmon;
+  width: 50%;
+
 }
 
 
@@ -141,11 +147,14 @@ input:checked + .slider:before {
   margin-right: 10px;
   font-weight: bold;
   font-family: "Monaco",monospace;
+  display: inline-block;
+
 }
 
 .peanutLabel{
   margin-right: 78px;
   font-weight: bold;
+  display: inline-block;
   font-family: "Monaco",monospace;
 }
 
@@ -153,27 +162,46 @@ input:checked + .slider:before {
   margin-right: 78px;
   font-weight: bold;
   font-family: "Monaco",monospace;
+  display: inline-block;
+
 }
 
 .dairyLabel{
   margin-right: 98px;
   font-weight: bold;
   font-family: "Monaco",monospace;
+  display: inline-block;
+
 }
 
 .eggLabel{
   margin-right: 116px;
   font-weight: bold;
   font-family: "Monaco",monospace;
+  display: inline-block;
+
 }
 
 .glutenLabel{
   margin-right: 88px;
   font-weight: bold;
   font-family: "Monaco",monospace;
+  display: inline-block;
+
 }
 
-.bottom{
+.veganLabel{
+  margin-right: 88px;
+  font-weight: bold;
+  font-family: "Monaco",monospace;
+  display: inline-block;
+
+}
+.kosherLabel{
+  margin-right: 88px;
+  font-weight: bold;
+  font-family: "Monaco",monospace;
   display: inline-block;
 }
+
 
