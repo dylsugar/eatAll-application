@@ -9,4 +9,4 @@ The purpose of this web application is to help those with dietary restrictions f
 
 Having an allergy to all nuts with the added affect of undergoing anaphylactic shock, finding a viable place to eat that makes all accompanying parties comforable is important. I hope that this application can be developed or implemented into larger services in the future. 
 
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot from 2022-01-13 14-42-51.png)
