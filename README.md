@@ -5,7 +5,7 @@
 The purpose of this web application is to help those with dietary restrictions find convenient places to eat that allows them to eat without worrying. Dietary restrictions include religious practices to allergies.
 
 
-# Inspiration
+# Inspiration:
 
 Having an allergy to all nuts with the added affect of undergoing anaphylactic shock, finding a viable place to eat that makes all accompanying parties comforable is important. I hope that this application can be developed or implemented into larger services in the future. 
 
